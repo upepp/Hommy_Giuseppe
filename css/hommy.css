@@ -1,80 +1,87 @@
-/*General Config*/
+/*general*/
 *{
     font-family: 'Raleway', sans-serif;
-    color:#0050DB;
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
 }
+
+
 
 /*Navbar*/
 nav{
-    background-size: cover;
-    height: 80px;
-    font-size: large;
-}
-ul {
-    list-style: none;
-    margin-top: -50px;
-}
-.navbar ul {
     display: flex;
-    margin-left: 130px;
-    margin-top: -130px;
-    font-size: larger;
-    font-weight: bolder;
-
 }
-.navbar li {
-    padding: 70px;
 
+img{
+    margin-left:13px;
+    margin-top:10px;
+}
+
+li{
+    list-style: none;   
+    color:#0050DB;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: large;
+    font-weight: bolder;
+}
+
+a{  
+    margin-top: 1cm;
+    margin-left: 12cm;
+    color:#0050DB;
+    display:flex;
 }
 
 /*header*/
 header h1{
-    color: black;
     text-align: right;
     margin: 50px;
-    margin-right: 0px;
+    margin-right: 12px;
     font-weight: bolder;
     
 }
 
 /*body*/
-body .description{
-    color: black;
+.description{
     display: table-cell;
     float: right;
     font-size: x-large;
     height: 280px;
-    width:910px;
+    width:880px;
     margin-top: -300px;
     margin-right:15px;
-    text-align: justify;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    background-color:#BDC4DF ;
+    background-color:#E0EBEC ;
     opacity: 0.8;
     line-height: 40px;
     }
 
-body h2{
+h2{
     text-align: right;
-    color: black;
     margin-top: -43px;
+    margin-right: 12px;
 }
-.body button{
-    color: black;
-    margin-left: 950px;
-}
+
 button {
+    margin-left: 840px;
+    margin-top: 30px;
     background-color: #61AEC6;
     border-radius: 30px;
     border-style: solid;
     border-color: #61AEC6;
-    height: 45px;
+    height: 55px;
+    width: 300px;
     font-weight: bolder;
-    margin-bottom: 15px;
+    font-size:medium;
 }
+
 aside{
     display: table;
+    margin-left:33px;
 }
 body{
     background-image: url(https://images.wallpaperscraft.com/image/skyscraper_building_fog_114534_1280x720.jpg);
@@ -84,4 +91,16 @@ body{
 /*footer*/
 footer{
     font-weight: medium;
+    max-height: 40;
+}
+.button2{
+    height: 45px;
+    width: 120px;
+    margin-left: initial;
+    font-size:small;
+    margin-top: 120px;
+    position: initial;
+}
+textarea{
+    margin-left: 23.2cm;
 }
